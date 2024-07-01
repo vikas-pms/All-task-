@@ -1,0 +1,53 @@
+.red {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 10px;
+    bottom: 300px;
+
+}
+
+.pink {
+    background-color: #ffc0ff;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    bottom: 180px;
+    left: 60px;
+
+
+}
+
+.yellow {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 160px;
+    bottom: 130px;
+
+
+
+}
+
+.green {
+    background-color: #40db40;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 225px;
+    bottom: 250px;
+
+
+}
+
+.blue {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 250px;
+    bottom: 180px;
+
+}

@@ -1,0 +1,54 @@
+.bx{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+.bx:hover{
+    /* animation-name: translate;
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate; */
+animation: translate 1s ease infinite alternate;
+animation: rotate 1s ease infinite alternate;
+}
+@keyframes translate{
+    0%{
+transform: translate(0px);
+    }
+    
+    25%{
+background-color: green;
+    }
+    50%{
+background-color: blue;
+    }
+    75%{
+        background-color: red;
+    }
+    100%{
+transform:translate(1000px);
+    }
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    0%{
+        transform: translate(0px);
+            }
+            
+            25%{
+        background-color: green;
+            }
+            50%{
+        background-color: blue;
+            }
+            75%{
+                background-color: red;
+            }
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,91 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.contenor {
+    display: flex;
+    margin: 50px;
+}
+
+.contenor1 {
+    background-color: blue;
+    margin: 10px;
+    position: relative;
+    height: 400px;
+    width: 300px;
+}
+
+.contenor1::before {
+    content: "";
+    background-image: url(box1.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    opacity: 0.4;
+}
+
+.box1,
+.box2,
+.box3 {
+    border: 3px solid white;
+    color: white;
+    height: 370px;
+    width: 270px;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.contenor2 {
+    background-color: blue;
+    margin: 10px;
+    /* background-image: url(box2.jpg); */
+    /* background-size: cover; */
+    height: 400px;
+    width: 300px;
+    position: relative;
+}
+.contenor2::before{
+    content: "";
+    background-image: url(box2.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    opacity: 0.4;
+}
+
+.contenor3 {
+    background-color: blue;
+    margin: 10px;
+    /* background-image: url(box3.jpg); */
+    /* background-size: cover; */
+    height: 400px;
+    width: 300px;
+}
+.contenor3::before{
+    content: "";
+    background-image: url(box3.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    z-index: 3;
+    opacity: 0.4;
+}
+
+.span {
+    font-size: x-large;
+    font-weight: bolder;
+    margin-left: 210px;
+}
+
+.text {
+    font-weight: bolder;
+    font-size: x-large;
+    margin-top: 240px;
+    margin-left: 20px;
+}

@@ -1,0 +1,58 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Cabin', sans-serif;
+    ;
+}
+
+.container {
+    display: flex;
+    border: 1px solid rgb(233, 212, 212);
+    justify-content: space-between;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.container1 {
+    display: flex;
+    gap: 20px;
+}
+
+
+.img {
+    height: 35px;
+    width: 35px;
+}
+
+.postmortemshala {
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 10px;
+
+}
+
+span {
+    color: red;
+}
+
+span1 {
+    color: red;
+}
+
+.ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+li {
+    padding-left: 20px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 10px;
+}

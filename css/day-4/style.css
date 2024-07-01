@@ -1,0 +1,15 @@
+.para{
+    border: 2px solid black;
+}
+.heading{
+    color: blue;
+}
+.para2{
+    border: 1px solid black;
+    height: 150px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+    left: 40%;
+    bottom: 50%;
+}

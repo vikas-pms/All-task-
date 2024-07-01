@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenor {
+    border: 3px solid black;
+    max-width: 100%;
+    padding: 20px;
+    margin: 100px;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+}
+
+.contenor1 {
+    display: flex;
+    justify-content: space-between;
+    text-align-last: center;
+}
+
+.contenor2 {
+    display: flex;
+    justify-content: center;
+    justify-items: center;  
+}
+
+.contenor3 {
+    display: flex;
+    justify-content: space-between
+}
+
+.box1 {
+    border: 3px solid black;
+    border-radius: 10%;
+    background-color: orangered;
+    text-align: center;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    border: 3px solid black;
+    border-radius: 10%;
+    background-color: palevioletred;
+    text-align: center;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 {
+    border: 3px solid black;
+    border-radius: 10%;
+    background-color: skyblue;
+    text-align: center;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box4 {
+    border: 3px solid black;
+    border-radius: 10%;
+    background-color: brown;
+    text-align: center;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box5 {
+    border: 3px solid black;
+    border-radius: 10%;
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

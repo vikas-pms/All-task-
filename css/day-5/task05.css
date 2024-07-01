@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background-color: skyblue;
+    text-align: center;
+    padding: 20px;
+    /* position: absolute; */
+    width: 1680px;
+}
+
+.contenor {
+    display: flex;
+}
+
+.hero {
+    background-color: pink;
+    text-align: center;
+    padding: 20px;
+    height: 200px;
+    width: 468px;
+}
+
+.contenor2 {
+    background-color: yellow;
+    text-align: center;
+    padding: 20px;
+    height: 500px;
+    width: 1170px;
+
+}
+
+.contenor3 {
+    display: flex;
+}
+
+.sidebar {
+    background-color: lightgreen;
+    text-align: center;
+    padding: 20px;
+    height: 543px;
+    width: 468px;
+    position: absolute;
+    top: 210px;
+
+}
+
+.extracontent {
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
+    height: 150px;
+    width: 1170px;
+    position: absolute;
+    left: 508px;
+
+}
+
+.contenor4 {
+    display: flex;
+}
+
+.realetedimage {
+    background-color: green;
+    text-align: center;
+    position: absolute;
+    width: 1100px;
+    height: 150px;
+    padding: 20px;
+    top: 790px;
+}
+
+.realetedpost {
+    background-color: brown;
+    text-align: center;
+    height: 150px;
+    width: 577px;
+    padding: 20px;
+    position: absolute;
+    top: 790px;
+    left: 1100px;
+}
+
+.footer {
+    background-color: orangered;
+    text-align: center;
+    height: 100px;
+    width: 1680px;
+    position: absolute;
+    top: 980px;
+    padding: 20px;
+
+
+}

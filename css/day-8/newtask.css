@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenor {
+    background-color: rgb(178, 228, 247);
+    width: 100%;
+    height: 100vh;
+    /* padding: 10px; */
+    display: flex;
+}
+
+.contenor1 {
+    /* border: 1px solid rgb(223, 221, 221); */
+    background-color: white;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.feature {
+    border: 1px solid rgb(207, 206, 206);
+    border-radius: 3px;
+    background-color: rgb(215, 196, 244);
+    color: blue;
+    font-weight: bold;
+    padding: 5px;
+    margin: 10px;
+}
+
+.p2 {
+    margin: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+.para {
+    color: rgb(75, 58, 95);
+    margin: 10px;
+}
+
+.learnmore {
+    border: 2px solid blue;
+    border-radius: 10px;
+    color: blue;
+    padding: 5px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.img {
+    height: 18px;
+    width: 50px;
+}
+
+.contenor2 {
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: rgb(246, 216, 216);
+    height: 250px;
+    width: 200px;
+    padding: 30px;
+    margin: 30px;
+    position: relative;
+}
+
+h4 {
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.span {
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.img2 {
+    height: 12px;
+    width: 12px;
+    text-align: left;
+}
+
+.span2 {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 6px;
+    background-color: rgb(231, 165, 165);
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.ul{
+    line-height: 30px;
+}
+
+.list {
+    margin-left: 30px;
+    list-style-position: outside;
+}
+
+p {
+    margin: 10px;
+    color: rgb(75, 58, 95);
+}
+
+.contenor3 {
+    border-radius: 10px;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    padding: 30px;
+    margin: 30px;
+}
+.p1{
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+.contenor3a {
+    display: flex;
+    /* gap: 20px; */
+    justify-content: space-around;
+
+}
+
+.v1 {
+    border: 1px solid rgb(207, 206, 206);
+    border-radius: 3px;
+    background-color: rgb(215, 196, 244);
+}
+
+.v2 {
+    border: 1px solid rgb(207, 206, 206);
+    border-radius: 3px;
+    background-color: rgb(215, 196, 244);
+}
+
+.v3 {
+    color: grey;
+
+
+}
+
+.v4 {
+    color: blue;
+    font-size: large;
+    font-weight: bolder;
+    font-family: cursive;
+}

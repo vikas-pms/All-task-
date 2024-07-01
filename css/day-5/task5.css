@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+.header {
+    background-color: aqua;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin: 10px;
+}
+
+.contenor {
+    display: flex;
+    /* margin: 10px; */
+}
+
+.colm1{
+    width: 40%;
+    margin: 10px;
+}
+
+.colm2{
+    width: 60%;
+    margin: 10px;
+}
+
+.hero {
+    background-color: palevioletred;
+    text-align: center;
+    padding: 20px;
+    height: 20%;
+
+}
+
+.sidebar {
+    background-color: greenyellow;
+    text-align: center;
+    padding: 20px;
+    height: 30%;
+    margin-top: 10px;
+}
+
+.contenor2 {
+    background-color: yellow;
+    text-align: center;
+    padding: 10px;
+}
+
+.extracontent {
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
+}
+
+.contenor3 {
+    display: flex;
+    margin: 10px;
+}
+
+.realetedimage {
+    background-color: green;
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+}
+
+.realetedpost {
+    background-color: pink;
+    text-align: center;
+    padding: 20px;
+    width: 20%;
+}
+.footer{
+    background-color: orangered;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}

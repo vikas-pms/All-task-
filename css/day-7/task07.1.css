@@ -1,0 +1,46 @@
+.contenor {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    color: black;
+    gap: 10px;
+    width: 250px;
+    margin-top:50px ;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.header {
+    border: 2px solid red;
+    padding: 2px;
+}
+
+.navigation {
+    border: 2px solid red;
+    padding: 2px;
+
+}
+
+.main {
+    border: 2px solid red;
+    padding: 2px;
+    height: 250px;
+}
+
+.sidebar {
+    border: 2px solid red;
+    padding: 2px;
+
+}
+
+.ads {
+    border: 2px solid red;
+    padding: 2px;
+
+}
+
+.footer {
+    border: 2px solid red;
+    padding: 2px;
+
+}

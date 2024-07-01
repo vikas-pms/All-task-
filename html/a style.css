@@ -1,0 +1,194 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 200vw;
+    height: 200vh;
+    font-family: sans-serif;
+    background: url(vk3.avif) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 40px;
+    background:rgba(0, 0, 0, 0.6);
+    border: 1px solid yellow;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.login-box h2 {
+    margin: 0 0 30px;
+    color: yellow;
+    text-align: center;
+    font-size: 40px;
+
+
+}
+
+.user-box {
+    position: relative;
+}
+
+input {
+    width: 100px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+}
+
+label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+input:focus~label,
+input:valid~label {
+    top: -20px;
+    left: 0;
+    color: yellow;
+    font-size: 12px;
+}
+
+form a {
+
+    position: absolute;
+    display: inline-block;
+    padding: 10px 20px;
+    color: yellow;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+}
+form{
+    margin: auto;
+    text-align: center;
+}
+
+form a :hover {
+    background-color: yellow;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px yellow;
+    box-shadow: 0 0 25px yellow;
+    box-shadow: 0 0 50px yellow;
+    box-shadow: 0 0 100px yellow;
+}
+
+a span {
+    position: absolute;
+    display: block;
+}
+
+a span:nth-child(1) {
+    top: 0;
+    left: -100px;
+    width: 100px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, yellow);
+    animation: btn-anima1 1s linear infinite;
+}
+
+@keyframes btn-anima1 {
+    0% {
+        left: 100%;
+    }
+
+    50%,
+    100% {
+        left: 1005;
+    }
+
+}
+
+a span:nth-child(2) {
+    top: 100px;
+    right: 0;
+    width: 2px;
+    height: 100px;
+    background: linear-gradient(180deg, transparent, yellow);
+    animation: btn-anima2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+
+@keyframes btn-anima2 {
+
+    0% {
+        top: -100%;
+    }
+
+    50%,
+    100% {
+        top: 100%;
+    }
+
+}
+
+a span:nth-child(3) {
+    bottom: 0;
+    right: 100px;
+    width: -100px;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, yellow);
+    animation: btn-anima3 1s linear infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes btn-anima3 {
+
+    0% {
+        right: -100%;
+    }
+
+    50%,
+    100% {
+        right: 100%;
+    }
+}
+
+a span:nth-child(4) {
+    bottom: -100px;
+    left: 0;
+    width: 2px;
+    height: 100px;
+    background: linear-gradient(360deg, transparent, yellow);
+    animation: btn-anima4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+
+@keyframes btn-anima3 {
+
+    0% {
+        bottom: -100%;
+    }
+
+    50%,
+    100% {
+        bottom: 100%;
+    }
+}

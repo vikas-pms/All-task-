@@ -1,0 +1,50 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
+
+
+.heading {
+    border: 2px solid palevioletred;
+    box-shadow: 2px 2px 2px 2px pink;
+    background-color: pink;
+    padding-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.heading2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.opt{
+    color: red;
+}
+.week1{
+    border: 2px solid blue;
+    /* width: 320px; */
+    background-color: rgb(210, 204, 216);
+    margin: 20px;
+    padding-left: 20px;
+    width: fit-content;
+    padding: 20px;
+}
+.week2{
+    border: 2px solid blue;
+    width: 320px;
+    background-color:  rgb(210, 204, 216);
+    margin: 20px;
+    padding-left: 20px;
+}
+
+.Jammu{
+    color: red;
+}
+.Republic{
+    color: red;
+}
+ul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h4{
+    color: blue;
+}

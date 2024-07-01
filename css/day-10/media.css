@@ -1,0 +1,14 @@
+@media screen and (max-width:480px) {
+   .container{
+    flex-direction:column;
+    align-items: center;
+    /* display: flex; */
+   }
+}
+@media (min-width:481px) and (max-width:767px){
+ .container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+ }   
+}

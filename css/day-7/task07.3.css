@@ -1,0 +1,45 @@
+.contenor {
+    display: grid;
+    font-weight: bold;
+    color: black;
+    grid-template-columns: auto 800px auto;
+    grid-template-rows: auto auto 550px auto;
+    gap: 5px;
+}
+
+.desktop {
+    color: black;
+    font-weight: bold;
+}
+
+.box {
+    border: 1px solid red;
+}
+
+#header {
+    grid-column: 1/span 3;
+}
+
+#sidebar {
+    grid-column: 1/span 1;
+    grid-row: 2/span 3;
+
+}
+
+#navigation {
+    grid-column: 2/span 1;
+}
+
+#main {
+    grid-column: 2/span 1;
+
+}
+
+#ads {
+    grid-column: 3/span 1;
+    grid-row: 2/span 3;
+}
+
+#footer {
+    grid-column: 1/span 3;
+}
